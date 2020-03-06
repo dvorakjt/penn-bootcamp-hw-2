@@ -1,3 +1,27 @@
 * {
     font-family: "Oxanium", sans-serif;
 }
+
+nav {
+    background-image: linear-gradient(to bottom right, rgb(92, 175, 161), rgba(0,0,0,0.2)); 
+}
+
+.navbar {
+    min-height: 120px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(148, 148, 209);
+}
+.bg-img {
+        height: 800px;
+        width: 100%;
+        margin-bottom: 25px;
+        background-image: url("placeholder.png");
+        background-size: cover;
+        background-position: center;
+}
