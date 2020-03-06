@@ -1,8 +1,9 @@
-* {
+/* * {
     font-family: "Oxanium", sans-serif;
-}
+} */
 
 nav {
+    font-family: "Oxanium", sans-serif;
     background-image: linear-gradient(to bottom right, rgb(92, 175, 161), rgba(0,0,0,0.2)); 
 }
 
@@ -21,7 +22,12 @@ a:hover {
         height: 800px;
         width: 100%;
         margin-bottom: 25px;
-        background-image: url("placeholder.png");
+        /* background-image: url("placeholder.png"); */
+        background-image: url("kontakte.gif");
         background-size: cover;
         background-position: center;
+}
+
+#contactCard {
+    width: 50%;
 }
