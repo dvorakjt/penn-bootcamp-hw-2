@@ -1,25 +1,24 @@
-/* * {
-    font-family: "Oxanium", sans-serif;
-} */
-
+/*adjust font family/size. apply background color gradient*/
 nav {
     font-family: "Oxanium", sans-serif;
     background-image: linear-gradient(to bottom right, rgb(92, 175, 161), rgba(0,0,0,0.2)); 
     font-size: 20px;
 }
 
+/*adjust height of navbar*/
 .navbar {
     min-height: 120px;
 }
 
+/*make sure link text is white*/
 a {
     color: white;
 }
-
+/*use pseudo class to make links change color when cursor hovers over them*/
 a:hover {
     color: rgb(148, 148, 209);
 }
-
+/*background images and specs.*/
 #port-bg-img {
     background-image: url("kegelstatt-trio.jpg");
 }
@@ -37,19 +36,20 @@ a:hover {
         background-position: center;
 }
 
+/*contact card specs*/
 #contactCard {
     max-width: 600px;
     min-width: 275px;
     border: solid;
 }
 
+/*placeholder images formatting*/
 .portfolioImg {
-    /* margin-top: 10px;
-    margin-bottom: 20px; */
     margin: 7px;
     padding: 5px;
 }
 
+/*formatting for outer and inner cards on portfolio page.*/
 #portfolioCard1 {
     background-color: rgb(0,0,0,0);
     border: solid;
@@ -60,11 +60,11 @@ a:hover {
     padding: 5px;
     border: solid;
 }
-
+/*if a link is displayed on a card, make the text black instead of white.*/
 .card a {
     color:black;
 }
-
+/*formatting for the card and image on the about me page*/
 #aboutMeCard {
     padding: 10px;
 }
@@ -73,7 +73,7 @@ a:hover {
     max-width: 250px;
     max-height: 250px;
 }
-
+/*style the footer*/
 footer {
     position: fixed;
     bottom: 0;  

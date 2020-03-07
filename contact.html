@@ -3,16 +3,22 @@
 
 <head>
     <meta charset="utf-8">
+    <!--adjusts the page scaling to fit the screen size -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--links to boostrap styles-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--link to google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Oxanium&display=swap" rel="stylesheet">
+    <!--link to my style sheet-->
     <link rel="stylesheet" href="assets/styles.css">
     <title>joseph_dvorak | contact</title>
 </head>
 
 <body>
+    <!--wrap everything in a div containing a giant background image. id is page-specific-->
     <div class="bg-img" id="contact-bg-img">
+        <!--create the navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,11 +37,14 @@
                 </li>
             </ul>
         </nav>
+        <!--create the container for page content-->
         <div class="container">
+            <!--the form will be presented within a card-->
             <div class="card mt-2" id="contactCard">
                 <div class="card-body">
                     <h5 class="card-title">Contact</h5>
                     <h6 class="card-subtitle mb-2 text-muted">Name</h6>
+                    <!--begin creation of forms-->
                     <div class="form-group">
                         <textarea class="form-control" id="nameInputArea" rows="1"></textarea>
                     </div>
@@ -47,6 +56,7 @@
                     <div class="form-group">
                         <textarea class="form-control" id="messageInputArea" rows="6"></textarea>
                     </div>
+                    <!--submit message button-->
                     <button class="btn btn-info" type="submit">Send message</button>
                 </div>
             </div>
