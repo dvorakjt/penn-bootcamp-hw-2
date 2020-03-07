@@ -1,6 +1,6 @@
 ﻿# Read Me
 
-This repo contains source code for my personal portfolio website. The deployed application can be accessed [here.](https://dvorakjt.github.io/penn-bootcamp-hw-2/) The focus of this project was using Boostrap components as well as the Bootstrap grid to organize the page
+This repo contains source code for my personal portfolio website. The deployed application can be accessed [here.](https://dvorakjt.github.io/penn-bootcamp-hw-2/) The focus of this project was using Bootstrap components as well as the Bootstrap grid to organize the page
 
 ## The About Page - Bootstrap Components
 ![About Me page screenshot](assets/aboutScreenShot.png)
