@@ -18,12 +18,18 @@ a {
 a:hover {
     color: rgb(148, 148, 209);
 }
+
+#home-bg-img {
+    background-image: url("placeholder.png");
+}
+#contact-bg-img {
+    background-image: url("kontakte.gif");
+}
+
 .bg-img {
         height: 800px;
         width: 100%;
         margin-bottom: 25px;
-        /* background-image: url("placeholder.png"); */
-        background-image: url("kontakte.gif");
         background-size: cover;
         background-position: center;
 }
