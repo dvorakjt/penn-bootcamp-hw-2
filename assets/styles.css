@@ -38,13 +38,14 @@ a:hover {
 }
 
 #contactCard {
-    width: 50%;
+    max-width: 600px;
     border: solid;
 }
 
 .portfolioImg {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    /* margin-top: 10px;
+    margin-bottom: 20px; */
+    margin: 7px;
     padding: 5px;
 }
 
