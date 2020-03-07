@@ -37,3 +37,14 @@ a:hover {
 #contactCard {
     width: 50%;
 }
+
+.portfolioImg {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+#portfolioCard {
+    margin-top: 10px;
+    padding: 5px;
+}
