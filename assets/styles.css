@@ -1,0 +1,86 @@
+/* * {
+    font-family: "Oxanium", sans-serif;
+} */
+
+nav {
+    font-family: "Oxanium", sans-serif;
+    background-image: linear-gradient(to bottom right, rgb(92, 175, 161), rgba(0,0,0,0.2)); 
+    font-size: 20px;
+}
+
+.navbar {
+    min-height: 120px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(148, 148, 209);
+}
+
+#port-bg-img {
+    background-image: url("kegelstatt-trio.jpg");
+}
+#contact-bg-img {
+    background-image: url("kontakte.gif");
+}
+
+#about-bg-img {
+    background-image: url("nielsen.jpg");
+}
+.bg-img {
+        height: 800px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+}
+
+#contactCard {
+    width: 50%;
+    border: solid;
+}
+
+.portfolioImg {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+#portfolioCard1 {
+    background-color: rgb(0,0,0,0);
+    border: solid;
+}
+#portfolioCard2 {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    border: solid;
+}
+
+.card a {
+    color:black;
+}
+
+#developCard {
+    padding: 10px;
+}
+
+#aboutMePic {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;  
+    font-family: "Oxanium", sans-serif;
+    color: white;
+    font-size: 14px;
+    background-image: linear-gradient(to bottom right, rgba(0,0,0,0.2),  rgb(92, 175, 161));
+    text-align: center;
+    min-height: 40px;
+    width: 100%;
+    padding-top: 10px;
+}
